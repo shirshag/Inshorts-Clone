@@ -49,7 +49,7 @@ export default function NewsContent({
             <hr />
             <button
               onClick={handleClick}
-              className="my-8 shadow-lg shadow-gray-600 bg-red-600 px-5 py-2 text-white text-sm"
+              className="my-8 shadow-md shadow-gray-400 bg-white px-5 py-2 text-black text-sm"
             >
               Load More
             </button>
