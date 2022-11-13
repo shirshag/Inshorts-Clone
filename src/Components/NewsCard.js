@@ -18,7 +18,7 @@ export default function NewsCard({ newsItem }) {
       <div className=" flex flex-col justify-between ">
         <div className="flex flex-col container">
           {/* news heading */}
-          <div className="text-2xl font-normal">{newsItem.title}</div>
+          <div className="text-xl font-normal text-[#44444d]">{newsItem.title}</div>
           {/* time */}
           <div className="text-sm mb-2 text-[#6b7280]">
             <a href={newsItem.url}>
@@ -32,7 +32,7 @@ export default function NewsCard({ newsItem }) {
             </a>
           </div>
           {/* description */}
-          <div className="font-normal text-lg">
+          <div className="font-normal text-md text-[#44444d]">
             <p>{newsItem.description}</p>
           </div>
         </div>
