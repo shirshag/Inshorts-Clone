@@ -9,9 +9,10 @@ export default function NewsCard({ newsItem }) {
   return (
     <div className="flex justify-between mx-auto mt-10 space-x-40 py-3 px-5 bg-transparent border-2 w-8/12 drop-shadow-md ">
       <div className="flex flex-col h-fit w-fit lg:flex-row mx-auto">
+        
         {/* left image */}
         <img
-          className="w-full h-fit lg:w-72 h-56"
+          className="w-full h-fit lg:w-72 lg:h-56"
           src={
             newsItem.urlToImage
               ? newsItem.urlToImage
@@ -21,7 +22,7 @@ export default function NewsCard({ newsItem }) {
         />
 
         {/* right */}
-        <div className=" flex flex-col justify-between pl-10">
+        <div className="w-[70%] flex flex-col justify-between pl-10">
           <div className="flex flex-col container">
             {/* news heading */}
             <div className="text-xl font-normal text-[#44444d]">
