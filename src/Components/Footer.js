@@ -14,13 +14,13 @@ export default function Footer() {
             alt=""
           />
           {/* clone by */}
-          <span className="mt-8 text-white text-[#808290] font-[Conv_ClanPro-Bold] mr-4">
+          {/* <span className="mt-8 text-white text-[#808290] font-[Conv_ClanPro-Bold] mr-4">
             Clone by{" "}
             <a target="_blank" href="https://abhipshapatro.netlify.app/">
               {" "}
               <b className="text-white">Abhipsha Patro</b>{" "}
             </a>
-          </span>
+          </span> */}
           {/* copyright msg */}
           <span className=" text-sm text-[#808290]">@COPYRIGHT 2022</span>
         </div>
